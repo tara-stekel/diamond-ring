@@ -1,0 +1,24 @@
+\documentclass[tikz,border=1in]{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.text}
+
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{tikzpicture}
+\foreach \r in {1,...,16}
+{
+    \fontsize{\r}{5}\selectfont
+    \foreach \t in {0,15,...,345}
+    {
+	    \draw[black, decorate, decoration={text along path,
+	                       text={Diamond},
+	                       text align=center,
+	                       raise = 3pt}]
+	    (\t+\r:\r) arc [start angle=\t+\r,end angle=\t+\r+20,radius=\r];
+    }
+}
+\end{tikzpicture}
+\end{document}
