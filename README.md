@@ -1,2 +1,3 @@
 # proposal
-Will you marry me? [ring.pdf](https://github.com/tara-stekel/proposal/files/10363453/ring.pdf)
+Will you marry me? 
+![ring (1)-1](https://user-images.githubusercontent.com/121750452/211109961-316b92c3-5900-4291-a56b-4358198b2fb6.png)
